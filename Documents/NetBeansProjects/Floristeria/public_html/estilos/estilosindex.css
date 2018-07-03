@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : 00140479
 */
 #cabecera{
-    font-size: 40px;
+    font-size: 60px;
     font-family: Times new roman;
     color:#00ada1;
     text-align: center;
@@ -32,6 +32,7 @@ ul li{
 #Cuerpo{
     text-align: center;
     font-size: 18px;
+     
 }
 #Pie{
     text-align: center;
