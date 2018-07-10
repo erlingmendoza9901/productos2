@@ -4,50 +4,63 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
- <html>
+<html>
     <head>
         <title>Formulario de Registro</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-    </head>
-    <body>
-        <div id="cabecera">
-             <h1>Formulario de Registro</h1>
-        </div>
-        <div id="Menu">
-               <ul>
+    <a href="index.html"></a>
+    <link href="estilos.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <div id="cabecera">
+        <h1>Formulario de Registro</h1>
+    </div>
+    <div id="Menu">
+        <ul>
             <li>Inicio</li>
             <li>Quiénes somos</li>
             <li> <a href="index.html">Menú</a></li>
             <li>Personal</li>
             <li>Contactos</li>
         </ul>
-        </div> 
-        <div id="Cuerpo">
-      <form>
-                <div>
-                    <label for="nombre">Nombre del producto</label>
-                    <input name="nombre" id="nombre" type="text"/>
-                    <label for="nombre">Teléfono</label>
-                    <input name="nombre" id="nombre" type="text"/>
-                    <label for="nombre">E-Mail</label>
-                    <input name="nombre" id="nombre" type="mail"/>
-                </div>
-          <div>
-            <label for="pais">Qué Necesitas</label>
-            <select name="pais">
-                <option value="" selected="selected">Selecciona</option>
-                <option value="quiero afiliarme">Quiero afiliarme como cliente preferencial</option>
-                <option value="solo quiero recibir">Solo quiero recibir información sobre ofertas</option>
-                <option value="me interesa">Me interesa todo tipo de información</option>
-                <option value="Otro">Otro</option>
-            </select>
-        </div>
-          </form>
-            <div id="pie">
-                Calle 3 #25, Los Caracoles. Puerto Plata, Rep.Dominicana<br>
-                Teléfono:829-123-4565
+    </div> 
+    <div id="Cuerpo">
+        <form>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input name="nombre" id="nombre" type="text"/>
             </div>
-    </body>
+            <div>
+                <label for="nombre">Teléfono</label>
+                <input name="nombre" id="nombre" type="text"/>
+            </div>
+            <div>
+                <label for="nombre">E-Mail</label>
+                <input name="nombre" id="nombre" type="mail"/>
+            </div>
+            <div> <label for="observacion">Observación</label>               
+                <textarea name="observacion" cols="100" rows="5"> </textarea>
+            </div>
+
+            <div>
+                <label for="pais">Qué Necesitas</label>
+                <select name="pais">
+                    <option value="" selected="selected">Selecciona</option>
+                    <option value="quiero afiliarme">Quiero afiliarme como cliente preferencial</option>
+                    <option value="solo quiero recibir">Solo quiero recibir información sobre ofertas</option>
+                    <option value="me interesa">Me interesa todo tipo de información</option>
+                    <option value="Otro">Otro</option> 
+         
+            </select>
+                
+                <button type="submit">Enviar Mensaje</button>
+    </div>
+</form>
+<div id="pie">
+    Calle 3 #25, Los Caracoles. Puerto Plata, Rep.Dominicana<br>
+    Teléfono:829-123-4565
+</div>
+</body>
 </html>

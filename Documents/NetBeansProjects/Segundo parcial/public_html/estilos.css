@@ -7,3 +7,66 @@ and open the template in the editor.
     Created on : Jul 9, 2018, 7:01:56 PM
     Author     : 00140479
 */
+
+#cabecera{
+    text-align:center;
+    font-family: Brodway;
+    font-size: 30px;
+    color: black;
+}
+ul li{
+  
+    list-style-type: none;
+    background: #242ac1;
+    color:white;
+    font-size: 14px;
+    font-family:brodway;
+    display: inline;
+    padding: 10px;
+    border-radius:2px;
+}
+#Menu{
+    text-align: center;
+  
+}
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    
+}
+input textarea{
+    width: 300px;
+    font-family: arial;
+    font-size: 12px;
+    
+}
+textArea{
+    vertical-align: middle;
+    width: 250px;
+}
+form{
+    border: 5px solid #4288f7;
+    width: 700px;
+    margin:0 auto;
+    border-radius: 15px;
+    padding:1em;
+}
+form div {
+     
+ margin-top:1em;
+}
+#Cuerpo{
+text-align: center;
+font-family: arial;
+font-size: 15px;
+
+}
+
+#pie{
+    background: #242ac1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+}
